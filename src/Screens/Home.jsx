@@ -106,7 +106,7 @@ function Home() {
   const [nickname, setNickname] = useState('');
   const [ageGroup, setAgeGroup] = useState('ADULT');
   const [beltAwarded, setBeltAwarded] = useState('WHITE');
-  const [degreeAwarded, setDegreeAwarded] = useState('None');
+  const [degreeAwarded, setDegreeAwarded] = useState('');
   const [instructor1, setInstructor1] = useState('');
   const [instructor2, setInstructor2] = useState('');
   const [dateAwarded, setDateAwarded] = useState(new Date());
@@ -126,7 +126,7 @@ function Home() {
         backgroundPosition: '20px 20px',
       }}>
          <div className='z-10 w-full lg:w-1/2 max-w-screen-sm mb-6 md:mb-12'>
-          <h1 className='text-white font-bold text-4xl'>Hey <span className='text-yellow-500'>Deejay,</span><br /> Welcome Back</h1>
+          <h1 className='text-white font-bold text-4xl'>Hey <span className='text-yellow-500'>Coach,</span><br /> Welcome Back</h1>
           <p className='text-white italic mt-2'>Enter a student&apos;s details down below to generate their belt certificate.</p>
         </div>
       <div className='fixed top-0 left-0 w-full h-full bg-black bg-opacity-85'></div>
@@ -202,7 +202,6 @@ function Home() {
                             onChange={(e) => setDegreeAwarded(e.target.value)}
                             className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
                         >
-                            <option value="">None</option>
                             <option value="1st">1st</option>
                             <option value="2nd">2nd</option>
                             <option value="3rd">3rd</option>

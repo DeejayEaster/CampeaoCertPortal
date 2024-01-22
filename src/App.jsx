@@ -10,7 +10,7 @@ function App() {
         <Routes>
           <Route path="/login" element={<Register />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/" element={<Navigate replace to="/login" />} />
+          <Route path="/" element={<Navigate replace to="/home" />} />
         </Routes>
       </Router>
     </div>
