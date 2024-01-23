@@ -103,7 +103,7 @@ import adultWhite2 from '../assets/Certs/ADULT/WHITE/ADULT-WHITE-2nd.pdf'
 function Home() {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
-  const [nickname, setNickname] = useState('');
+  // const [nickname, setNickname] = useState('');
   const [ageGroup, setAgeGroup] = useState('ADULT');
   const [beltAwarded, setBeltAwarded] = useState('WHITE');
   const [degreeAwarded, setDegreeAwarded] = useState('');
@@ -150,13 +150,13 @@ function Home() {
               className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
             />
 
-            <label className="text-white text-lg mt-2">Nickname <span className='text-xs'>(optional)</span></label>
+            {/* <label className="text-white text-lg mt-2">Nickname <span className='text-xs'>(optional)</span></label>
             <input
               type="text"
               value={nickname}
               onChange={(e) => setNickname(e.target.value)}
               className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
-            />
+            /> */}
 
             <label className="text-white text-lg mt-8">Age Group</label>
             <div className="flex gap-4 mb-8">
