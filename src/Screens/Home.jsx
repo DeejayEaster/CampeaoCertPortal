@@ -127,7 +127,7 @@ function Home() {
       }}>
          <div className='z-10 w-full lg:w-1/2 max-w-screen-sm mb-6 md:mb-12'>
           <h1 className='text-white font-bold text-4xl'>Hey <span className='text-yellow-500'>Coach,</span><br /> Welcome Back</h1>
-          <p className='text-white italic mt-2'>Enter a student&apos;s details down below to generate their belt certificate.</p>
+          <p className='text-white italic mt-2'>Enter a student&apos;s details below to generate their belt certificate.</p>
         </div>
       <div className='fixed top-0 left-0 w-full h-full bg-black bg-opacity-85'></div>
       <div className='z-10 w-full lg:w-1/2 max-w-screen-sm bg-black p-12 flex justify-center flex-col rounded-2xl border-1 border-white border shadow-md'>
